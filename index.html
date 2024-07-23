@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="assets/styles.css"> <!-- Hubungkan dengan file CSS -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Hi I'm Muhammad Rifqi Kurniawan</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#portfolio">Portofolio</a></li>
+                    <li><a href="#about">Tentang Saya</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home" class="section">
+        <div class="container">
+            <h2>Selamat Datang di Portofolio Saya!</h2>
+            <p>Ini adalah halaman beranda portofolio saya.</p>
+        </div>
+    </section>
+    
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Portofolio</h2>
+            <div class="portfolio-item">
+                <img src="gambar/proyek1.jpg" alt="Proyek 1">
+                <h3>Proyek 1</h3>
+                <p>Deskripsi singkat tentang proyek 1.</p>
+                <a href="#">Lihat lebih banyak</a>
+            </div>
+            <div class="portfolio-item">
+                <img src="gambar/proyek2.jpg" alt="Proyek 2">
+                <h3>Proyek 2</h3>
+                <p>Deskripsi singkat tentang proyek 2.</p>
+                <a href="#">Lihat lebih banyak</a>
+            </div>
+            <!-- Tambahkan lebih banyak item portofolio sesuai kebutuhan -->
+        </div>
+    </section>
+    
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>Deskripsi tentang latar belakang, keahlian, dan minat Anda.</p>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Portofolio Saya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript untuk interaktivitas -->
+    <script>
+        // Contoh JavaScript untuk validasi formulir
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // Lakukan validasi atau kirim formulir ke server
+            alert('Formulir telah dikirim!');
+        });
+    </script>
+</body>
+</html>
