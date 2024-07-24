@@ -11,6 +11,15 @@ body {
     background-color: #f0f0f0;
 }
 
+/* CSS untuk avatar */
+.avatar {
+    width: 200px; /* Sesuaikan ukuran avatar sesuai kebutuhan */
+    height: 200px; /* Ukuran yang sama untuk memastikan lingkaran */
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+    margin: 10px auto; /* Posisikan avatar di tengah secara horizontal */
+    display: block; /* Membuat avatar menjadi blok agar bisa ditengah secara otomatis */
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
